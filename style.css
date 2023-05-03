@@ -1,0 +1,24 @@
+.kapsayici {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media only screen and (max-width: 768px) {
+  .kapsayici {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card-link {
+  font-weight: 500;
+  color: #333333;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.card-link:hover {
+  text-decoration: underline;
+}
+
+.card-img-top {
+  border-radius: 0 !important;
+}
